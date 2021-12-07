@@ -1,5 +1,26 @@
+html, body{
+	font-family: arial, sans-serif;
+	background-color: #f3f3f3;
+}
+
+#cv {
+	margin: 30px;
+	max-width: 900px;
+	width: 80%;
+}
 .clear {
 	clear: both;
+}
+.subDetails{
+	font-style: italic;
+}
+.jetblack{
+	color: #181818;
+	padding-top: 25px;
+	margin-top: -5px;
+}
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
 }
 
 #headshot {
@@ -8,20 +29,38 @@
 	margin-right: 30px;
 }
 
-#name {
-	float: left;
+#headshot img{
+	border-radius: 30em;
+	margin-bottom: 10px;
 }
 
+#name {
+	float: left;
+	padding-left: 20px;
+	margin: 10px;
+}
+
+h1{
+	margin-bottom: -20px;
+}
+h2{
+	margin-bottom: -12px;
+}
 #contactDetails {
 	float: right;
 }
 
 .sectionTitle {
+	font-family: arial;
+	color: #cf8a05;
 	float: left;
 	width: 25%;
+	font-style: italic;
 }
 
 .sectionContent {
+	color: #444444;
 	float: right;
-	width: 72.5%;
+	width: 71.5%;
+	border-bottom: 1px solid #dedede
 }
